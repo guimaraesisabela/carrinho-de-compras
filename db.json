@@ -1,0 +1,84 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Teclado Logitech Silent Touch",
+        "description": "Teclado sem fio com teclas silenciosas e design ergonômico.",
+        "price": 199.90,
+        "rating": 3,
+        "reviews": 935
+      },
+      {
+        "id": 2,
+        "name": "Placa De Vídeo Gigabyte NVIDIA GeForce RTX 4090 AORUS MASTER",
+        "description": "Placa de vídeo de última geração com 24GB de memória GDDR6X.",
+        "price": 13899.90,
+        "rating": 4,
+        "reviews": 128
+      },
+      {
+        "id": 3,
+        "name": "Pen Drive 128GB Cruzer Blade - Sandisk",
+        "description": "Pen drive portátil com 128GB de capacidade.",
+        "price": 79.90,
+        "rating": 4,
+        "reviews": 128
+      },
+      {
+        "id": 4,
+        "name": "Smartphone Samsung Galaxy S22",
+        "description": "Smartphone com tela AMOLED de 6.2 polegadas e câmera de 50MP.",
+        "price": 5299.90,
+        "rating": 5,
+        "reviews": 3200
+      },
+      {
+        "id": 5,
+        "name": "Monitor LG UltraGear 27GL850",
+        "description": "Monitor gamer 27 polegadas com resolução QHD e 144Hz.",
+        "price": 2499.90,
+        "rating": 4,
+        "reviews": 540
+      },
+      {
+        "id": 6,
+        "name": "Fone de Ouvido Sony WH-1000XM4",
+        "description": "Fone de ouvido com cancelamento de ruído ativo e som de alta definição.",
+        "price": 1799.90,
+        "rating": 5,
+        "reviews": 2100
+      },
+      {
+        "id": 7,
+        "name": "Notebook Dell Inspiron 15",
+        "description": "Notebook com processador Intel Core i7, 16GB de RAM e SSD de 512GB.",
+        "price": 4899.90,
+        "rating": 4,
+        "reviews": 980
+      },
+      {
+        "id": 8,
+        "name": "Mouse Razer DeathAdder V2",
+        "description": "Mouse gamer ergonômico com sensor óptico de 20.000 DPI.",
+        "price": 349.90,
+        "rating": 5,
+        "reviews": 2500
+      },
+      {
+        "id": 9,
+        "name": "Smartwatch Apple Watch Series 8",
+        "description": "Relógio inteligente com monitoramento de saúde avançado e GPS integrado.",
+        "price": 3999.90,
+        "rating": 4,
+        "reviews": 3400
+      },
+      {
+        "id": 10,
+        "name": "SSD Kingston NV1 1TB",
+        "description": "SSD NVMe com 1TB de capacidade e alta velocidade de leitura e gravação.",
+        "price": 499.90,
+        "rating": 5,
+        "reviews": 4300
+      }
+    ]
+  }
