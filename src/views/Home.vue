@@ -1,41 +1,26 @@
 <template>
   <div class="d-flex flex-column align-items-center justify-content-center min-vh-100">
-    <h3 class="text-white">Carrinho de Compras</h3>
+    <h1 class="text-white">Carrinho de Compras</h1>
 
-    <div
-      v-for="product in visibleProducts"
-      :key="product.id"
-      class="card mb-3"
-      style="width: 70rem; height: 12rem; color: white; background-color: #2C2C36;"
-    >
+    <div v-for="product in visibleProducts" :key="product.id" class="card mb-3"
+      style="width: 70rem; height: 12rem; color: white; background-color: #2C2C36;">
       <div class="card-body">
         <p class="card-text">{{ product.name }}</p>
         <span class="stars">{{ product.rating }} ⭐ ({{ product.reviews }} avaliações)</span>
         <h3 style="color: #A33AFF;">R$ {{ product.price.toFixed(2) }}</h3>
-        <button
-          @click="addToCart(product)"
-          class="btn"
-          style="background-color: #39115C; color: white; width: 15rem;"
-        >
+        <button @click="addToCart(product)" class="btn" style="background-color: #39115C; color: white; width: 15rem;">
           Adicionar ao carrinho
         </button>
       </div>
     </div>
 
     <div class="button-container mt-4">
-      <button
-        v-if="productsToShow < products.length"
-        @click="loadMore"
-        class="btn btn-primary"
-        style="background-color: #39115C; color: white; border: none;"
-      >
+      <button v-if="productsToShow < products.length" @click="loadMore" class="btn btn-primary"
+        style="background-color: #39115C; color: white; border: none;">
         Carregar mais produtos
       </button>
-      <router-link
-        to="/cart"
-        class="btn btn-success ms-3"
-        style="background-color: #39CC33; color: white; border: none;"
-      >
+      <router-link to="/cart" class="btn btn-success ms-3"
+        style="background-color: #39CC33; color: white; border: none;">
         Ir para o carrinho
       </router-link>
     </div>
@@ -93,7 +78,7 @@ export default {
 </script>
 
 <style>
-  body{
-    background-color: #14151D;
-  }
+body {
+  background-color: #14151D;
+}
 </style>
