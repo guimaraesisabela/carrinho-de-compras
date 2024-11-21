@@ -18,7 +18,7 @@
       </li>
     </ul>
     <div v-else>
-      <p class="text-white">
+      <p class="text-white" style="text-align: center;">
         Você ainda não adicionou nenhum produto ao carrinho!
       </p>
     </div>
