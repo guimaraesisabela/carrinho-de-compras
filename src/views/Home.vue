@@ -56,7 +56,7 @@ export default {
       if (!productInCart) {
         this.cart.push({ ...product, quantity: 1 });
         this.updateLocalStorage();
-        alert('Produto adicionado ao carrinho!');
+        // alert('Produto adicionado ao carrinho!');
       }
     },
     loadCart() {
